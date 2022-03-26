@@ -9,35 +9,16 @@
     android:padding="20dp"
     android:gravity="center">
 
-    <Button
-        android:id="@+id/increment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="20dp"
-        android:text="Increment"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="167dp"></Button>
 
     <Button
-        android:id="@+id/decrement"
-        android:layout_width="wrap_content"
+        android:id="@+id/btn_1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:padding="20dp"
-        android:text="Decrement"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="167dp"></Button>
+        android:text="Button" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="20dp"
-        android:text="0 Clicks!"
-        android:textSize="30sp"
-        tools:layout_editor_absoluteX="204dp"
-        tools:layout_editor_absoluteY="1dp"></TextView>
-
+        android:text="Button" />
 </LinearLayout>
